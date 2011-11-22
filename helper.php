@@ -47,7 +47,7 @@ class modAMCSlideshowHelper {
 				//If the item is an image, add it to the list
 				if (!is_dir($dir .DS. $img))
 				{
-					if (eregi($type, $img)) {
+					if (preg_match('/'.$type.'/i', $img)) {
 						$images[$i]->name 	= $img;
 						$images[$i]->folder	= str_replace(DS,'/',$folder);
 						++$i;

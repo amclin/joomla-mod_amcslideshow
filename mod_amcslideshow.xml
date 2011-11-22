@@ -11,7 +11,7 @@
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<authorEmail>joomla@anthonymclin.com</authorEmail>
 	<authorUrl>www.anthonymclin.com</authorUrl>
-	<version>1.7</version>
+	<version>1.8</version>
 	<description>This module provides a Javascript-based slideshow. It requires the template to include Mootools 1.2 and the Clientcide library</description>
 	<files>
 		<filename module="mod_amcslideshow">mod_amcslideshow.php</filename>
